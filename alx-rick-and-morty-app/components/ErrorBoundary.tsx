@@ -35,3 +35,5 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, State> {
         return this.props.children
     }
 }
+
+export default ErrorBoundary;
